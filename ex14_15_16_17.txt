@@ -1,0 +1,53 @@
+14
+
+a) [Char] ou String
+
+b) (Char, Char, Char)
+
+c) [(Bool, Char)]
+
+d) ([Bool], [Char])
+
+e) [[a] -> [a]]
+
+f) [[Bool -> Bool]]
+
+15
+
+1) f :: (Int, Int) -> Int
+
+2) f :: a -> Int
+   g :: Int -> a
+
+3) f :: Int -> (Int -> Int)
+   g :: Int
+
+4) f :: Bool -> [Int] -> (Int)
+   g :: Bool
+
+5) f :: (Int, Int) -> [Int -> Int]
+
+16
+
+f :: a -> (Int -> [Int])
+g :: a
+
+17
+
+a) segundo :: [a] -> a
+
+b) trocar :: (a,b) -> (b,a)
+
+c) par :: a -> b -> (a,b)
+
+d) dobro :: Num a => a -> a
+
+e) metade :: Fractional a => a -> a
+
+f) minuscula :: Char -> Bool
+
+g) intervalo :: Ord a => a -> a -> a -> Bool
+
+h) palindromo :: Eq a => [a] -> Bool
+
+i) twice :: (a -> a) -> a -> a
