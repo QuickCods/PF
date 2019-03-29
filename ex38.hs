@@ -24,5 +24,6 @@ myreplicate n x | n == 0 = []
 (!!) xs n = head(drop n xs)
 
 --f (nao funciona)
---myelem :: Eq a => a -> [a] -> Bool
---myelem n (x:xs) = if n == x then True else False
+myelem :: Eq a => a -> [a] -> Bool
+myelem n [x] = n == x
+myelem n (x:xs) = n == x || myelem n xs
