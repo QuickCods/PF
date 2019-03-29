@@ -12,3 +12,4 @@ binom_fast n k = num `div` den
             where
                 num = product [n-k+1..n]
                 den = product [1..k]
+
