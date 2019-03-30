@@ -5,3 +5,4 @@ procura_raiz n r | r^2 == n               = r
 
 raisq :: Integer -> Integer
 raisq x = procura_raiz x 0
+
