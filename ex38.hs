@@ -23,7 +23,7 @@ myreplicate n x | n == 0 = []
 (!!) :: [a] -> Int -> a
 (!!) xs n = head(drop n xs)
 
---f (nao funciona)
+--f
 myelem :: Eq a => a -> [a] -> Bool
 myelem n [x] = n == x
 myelem n (x:xs) = n == x || myelem n xs
